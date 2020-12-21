@@ -32,8 +32,8 @@
 				<li Class = "BiomesKit.BiomesKitControls">
 					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
-					<forestDenseAbove>2000</forestDenseAbove>
-					<forestSparseBelow>1000</forestSparseBelow>
+					<forestDenseAbove>2400</forestDenseAbove>
+					<forestSparseBelow>1600</forestSparseBelow>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
