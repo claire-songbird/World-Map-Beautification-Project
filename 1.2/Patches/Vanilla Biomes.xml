@@ -42,7 +42,7 @@
 			<li Class="BiomesKit.BiomesKitControls">
 				<forested>true</forested>
 				<uniqueHills>true</uniqueHills>
-				<forestDenseAbove>3500</forestDenseAbove>
+				<forestDenseAbove>2100</forestDenseAbove>
 				<materialRandomRotation>false</materialRandomRotation>
 				<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 				<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -58,7 +58,7 @@
 			<li Class="BiomesKit.BiomesKitControls">
 				<forested>true</forested>
 				<uniqueHills>true</uniqueHills>
-				<forestDenseAbove>1800</forestDenseAbove>
+				<forestDenseAbove>1500</forestDenseAbove>
 				<forestSparseBelow>1100</forestSparseBelow>
 				<materialRandomRotation>false</materialRandomRotation>
 				<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
@@ -75,8 +75,8 @@
 			<li Class="BiomesKit.BiomesKitControls">
 				<forested>true</forested>
 				<uniqueHills>true</uniqueHills>
-				<forestDenseAbove>500</forestDenseAbove>
-				<forestSparseBelow>300</forestSparseBelow>
+				<forestDenseAbove>260</forestDenseAbove>
+				<forestSparseBelow>185</forestSparseBelow>
 				<materialRandomRotation>false</materialRandomRotation>
 				<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 				<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -169,7 +169,7 @@
 				<forested>true</forested>
 				<uniqueHills>true</uniqueHills>
 				<materialRandomRotation>false</materialRandomRotation>
-				<forestDenseAbove>2500</forestDenseAbove>
+				<forestDenseAbove>2000</forestDenseAbove>
 				<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 				<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
 				<mountainSizeMultiplier>1.4</mountainSizeMultiplier>
