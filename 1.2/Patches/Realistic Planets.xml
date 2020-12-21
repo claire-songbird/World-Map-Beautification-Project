@@ -4,13 +4,16 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_AlpineMeadow"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_Grassland"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
+					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
+					<forestDenseAbove>1500</forestDenseAbove>
+					<forestSparseBelow>1100</forestSparseBelow>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -23,13 +26,16 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_CloudForest"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_Savanna"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
+					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
+					<forestDenseAbove>1500</forestDenseAbove>
+					<forestSparseBelow>1100</forestSparseBelow>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -42,13 +48,16 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_CoastalDunes"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_Steppes"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
+					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
+					<forestDenseAbove>260</forestDenseAbove>
+					<forestSparseBelow>185</forestSparseBelow>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -61,13 +70,16 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Grasslands"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_TemperateDesert"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
+					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
+					<forestDenseAbove>1500</forestDenseAbove>
+					<forestSparseBelow>1100</forestSparseBelow>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -80,51 +92,17 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Iceberg_NoBeach"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_Permafrost"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
+					<forested>true</forested>
 					<uniqueHills>true</uniqueHills>
-					<materialRandomRotation>false</materialRandomRotation>
-					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
-					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
-					<mountainSizeMultiplier>1.4</mountainSizeMultiplier>
-					<impassableSizeMultiplier>1.3</impassableSizeMultiplier>
-				</li>
-			</value>
-		</match>
-	</Operation>
-		<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>More Vanilla Biomes</li>
-		</mods>
-		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Iceberg"]</xpath>
-			<value>
-				<li Class="BiomesKit.BiomesKitControls">
-					<uniqueHills>true</uniqueHills>
-					<materialRandomRotation>false</materialRandomRotation>
-					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
-					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
-					<mountainSizeMultiplier>1.4</mountainSizeMultiplier>
-					<impassableSizeMultiplier>1.3</impassableSizeMultiplier>
-				</li>
-			</value>
-		</match>
-	</Operation>
-	
-
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>More Vanilla Biomes</li>
-		</mods>
-		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Marsh"]</xpath>
-			<value>
-				<li Class="BiomesKit.BiomesKitControls">
-					<uniqueHills>true</uniqueHills>
+					<forestSnowyBelow>0</forestSnowyBelow>
+					<forestSparseBelow>1100</forestSparseBelow>
+					<forestDenseAbove>1500</forestDenseAbove>
 					<materialRandomRotation>false</materialRandomRotation>
 					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
 					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
@@ -137,47 +115,10 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>More Vanilla Biomes</li>
+			<li>Realistic Planets - Fan Update</li>
 		</mods>
 		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Oasis"]</xpath>
-			<value>
-				<li Class="BiomesKit.BiomesKitControls">
-					<uniqueHills>true</uniqueHills>
-					<materialRandomRotation>false</materialRandomRotation>
-					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
-					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
-					<mountainSizeMultiplier>1.4</mountainSizeMultiplier>
-					<impassableSizeMultiplier>1.3</impassableSizeMultiplier>
-				</li>
-			</value>
-		</match>
-	</Operation>
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>More Vanilla Biomes</li>
-		</mods>
-		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Sandbar_NoBeach"]</xpath>
-			<value>
-				<li Class="BiomesKit.BiomesKitControls">
-					<uniqueHills>true</uniqueHills>
-					<materialRandomRotation>false</materialRandomRotation>
-					<smallHillSizeMultiplier>1.5</smallHillSizeMultiplier>
-					<largeHillSizeMultiplier>2</largeHillSizeMultiplier>
-					<mountainSizeMultiplier>1.4</mountainSizeMultiplier>
-					<impassableSizeMultiplier>1.3</impassableSizeMultiplier>
-				</li>
-			</value>
-		</match>
-	</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>More Vanilla Biomes</li>
-		</mods>
-		<match Class="PatchOperationAddModExtension">
-			<xpath>/Defs/BiomeDef[defName = "ZBiome_Sandbar"]</xpath>
+			<xpath>/Defs/BiomeDef[defName = "RRP_Oasis"]</xpath>
 			<value>
 				<li Class="BiomesKit.BiomesKitControls">
 					<uniqueHills>true</uniqueHills>
